@@ -38,3 +38,4 @@ dtc= load('dtc_model.joblib')
 #LR score and prediction
 print(dtc.score(X_test, y_test))
 print(dtc.predict(X_test))
+print("See you later")
